@@ -18,7 +18,7 @@
 <div id="${field.id}_${_itemIdx}" class="crudEmbeddedObject">
 	<!-- input type="hidden" name="${field.name}.idx" value="${_itemIdx}"/-->
 	<label class="mapKey" for="${field.name}[${_itemIdx}]">
-		${_itemIdx}
+		${_itemIdx}, ${_itemValue}
 	</label>
 	#{crud.subform value:_itemValue, type:_itemType, 
 		prefix:field.name + "[" + _itemIdx + "]"/}

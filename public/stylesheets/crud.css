@@ -393,6 +393,7 @@ label.mapKey {
 	display: inline;
 	margin-top: 10px;
 	width: 5%;
+	min-width: 100px;
 }
 input.mapKey {
 	display : block;
